@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: gateway
+server:
+  port: 8080
+  servlet:
+    context-path: /gateway
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka/
+    fetch-registry: true
+    register-with-eureka: true
+
+zuul:
+  sensitive-headers: Cookie
