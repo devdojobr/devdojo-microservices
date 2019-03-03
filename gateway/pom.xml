@@ -16,10 +16,22 @@
 
     <properties>
         <java.version>11</java.version>
+        <devdojo-token.version>1.0-SNAPSHOT</devdojo-token.version>
+        <devdojo-core.version>1.0-SNAPSHOT</devdojo-core.version>
+
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>academy.devdojo.youtube</groupId>
+            <artifactId>token</artifactId>
+            <version>${devdojo-token.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>academy.devdojo.youtube</groupId>
+            <artifactId>core</artifactId>
+            <version>${devdojo-core.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
