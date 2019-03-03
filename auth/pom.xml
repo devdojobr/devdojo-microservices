@@ -17,9 +17,15 @@
     <properties>
         <java.version>11</java.version>
         <devdojo-core.version>1.0-SNAPSHOT</devdojo-core.version>
+        <devdojo-token.version>1.0-SNAPSHOT</devdojo-token.version>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>academy.devdojo.youtube</groupId>
+            <artifactId>token</artifactId>
+            <version>${devdojo-token.version}</version>
+        </dependency>
         <dependency>
             <groupId>academy.devdojo.youtube</groupId>
             <artifactId>core</artifactId>
