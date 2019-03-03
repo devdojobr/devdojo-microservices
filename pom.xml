@@ -17,6 +17,7 @@
     <modules>
         <module>course</module>
         <module>core</module>
+        <module>token</module>
     </modules>
     <properties>
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
