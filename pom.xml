@@ -23,8 +23,19 @@
         <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
         <nimbus-jose.version>7.0</nimbus-jose.version>
         <commons-lang3.version>3.8.1</commons-lang3.version>
+        <swagger.version>2.9.2</swagger.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${swagger.version}</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
